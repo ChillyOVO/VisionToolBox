@@ -32,6 +32,6 @@ normal = np.array([[Plane[0][0]], [Plane[1][0]], [-1]])
 VecInject = np.array([[0], [0], [1]])
 Rot = pd.getCoordinateBy2Vectors(normal, VecInject)
 print(Rot)
-
+Rot = Rot[:, [1, 0, 2]]
 rx, ry, rz = pd.getRotationMatrixToAngles(Rot)
 print('旋转角度：Rx = %.6f °, Ry = %.6f °, Rz = %.6f °' % (rx * 180 / np.pi, ry * 180 / np.pi, rz * 180 / np.pi))
