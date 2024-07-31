@@ -37,7 +37,7 @@ def getAngleBy3PointsInDegree(point_1, point_2, point_3):
     return B
 
 
-def getDis2D(pos1x, pos1y, pos2x, pos2y):
+def getDistance2D(pos1x, pos1y, pos2x, pos2y):
     """
         计算两点距离
     :param pos1x: 位置1X
@@ -607,7 +607,7 @@ def getMarkersPos(Img):
     return markerPos
 
 
-def getDMMarkersMatrix(Level):
+def getDMMarkers(Level):
     """
         生成多阶DM二维码
     :param Level: 阶数
