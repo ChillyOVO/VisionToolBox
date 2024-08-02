@@ -31,7 +31,7 @@ normal = np.array([[Plane[0][0]], [Plane[1][0]], [-1]])
 # print(normal)
 VecInject = np.array([[0], [0], [1]])
 Rot = pd.getCoordinateBy2Vectors(normal, VecInject)
-print(Rot)
+# print(Rot)
 # 交换列
 Rot = Rot[:, [1, 0, 2]]
 rx, ry, rz = pd.getRotationMatrixToAngles(Rot)

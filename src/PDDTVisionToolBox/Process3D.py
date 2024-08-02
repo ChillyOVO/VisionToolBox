@@ -200,16 +200,16 @@ def getCoordinateBy2Vectors(NormalVec, InjectVec):
     # 确定第一轴
     # 归一化
     Vec1 = NormalVec / np.linalg.norm(NormalVec)
-    print("axis-1", Vec1)
+    # print("axis-1", Vec1)
     # 确定第二轴
     # 投影 + 归一化
     Vec2 = InjectVec - (np.dot(InjectVec, NormalVec) / (np.linalg.norm(NormalVec) ** 2)) * NormalVec
     Vec2 = Vec2 / np.linalg.norm(Vec2)
-    print("axis-2", Vec2)
+    # print("axis-2", Vec2)
     # 确定第三轴
     Vec3 = np.cross(Vec1, Vec2)
     Vec3 = Vec3 / np.linalg.norm(Vec3)
-    print("axis-3", Vec3)
+    # print("axis-3", Vec3)
     # 根据坐标系直接构造旋转矩阵
     Rot = np.array(([Vec1[0], Vec2[0], Vec3[0]],
                     [Vec1[1], Vec2[1], Vec3[1]],
