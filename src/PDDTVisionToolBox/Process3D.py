@@ -85,7 +85,7 @@ def getCameraMatrix(Intrinsic, Rotation, Translation):
     return mCamera
 
 
-def get3dPosition(mLeftM, mRightM, lx, ly, rx, ry):
+def get3dPoByCameraMatrix(mLeftM, mRightM, lx, ly, rx, ry):
     """
         根据相机矩阵完成二维到三维变换
     :param mLeftM:       左相机矩阵
