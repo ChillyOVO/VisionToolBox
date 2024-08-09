@@ -1,31 +1,13 @@
 import src.PrePackages as pp
 
-# 初始化
-cal1 = pp.MHYCalculate()
-# 测试段-概率测试
-# a, b, c = cal1.probabilityOfCharacterNow(80, 1)
-# print('5星概率: {:.2%}'.format(a))
-# print('4星概率: {:.2%}'.format(b))
-# print('3星概率: {:.2%}'.format(c))
-# a, b, c = cal1.probabilityOfWeaponNow(88,10)
-# print('5星概率: {:.2%}'.format(a))
-# print('4星概率: {:.2%}'.format(b))
-# print('3星概率: {:.2%}'.format(c))
+if __name__ == '__main__':
+    # 初始化
+    emu1 = pp.MHYCalculate()
+    emu1.ListUpCharacterLevel5 = ['艾梅莉埃']
+    emu1.ListUpCharacterLevel4 = ['烟绯', '香菱', '雷泽']
+    emu1.ListUpWeaponLevel5 = ['柔灯挽歌', '若水']
+    emu1.ListUpWeaponLevel4 = ['笛剑', '玛海菈的水色', '西风长枪', '流浪的晚星', '西风猎弓']
+    # 开始模拟
+    identity = emu1.emulationOfCharacterPool(10)
+    identity = emu1.emulationOfWeaponPool(10)
 
-# from random import choice
-# import secrets
-#
-# # a = ['温迪', '莫娜', '阿贝多', '琴']
-# a = ['0'] * 0 + ['1'] * 9 + ['2'] * 1
-# print(a)
-# print(secrets.choice(a))
-# cal1.countLevel4 =1
-count = 0
-for i in range(1,201):
-    # print(cal1.countLevel5,cal1.countLevel4)
-    count = count + 1
-    a = cal1.singleWishOfUpCharacterPool()
-    # print(a)
-    if a == '2':
-        print('Level5:', count)
-        count = 0
