@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 用于现有机械臂的控制
 import cv2
 import socket
 import struct

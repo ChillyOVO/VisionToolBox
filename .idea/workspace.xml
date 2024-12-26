@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a94522c-c15b-4040-aba9-00f0ae336f22" name="Changes" comment="" />
+    <list default="true" id="3a94522c-c15b-4040-aba9-00f0ae336f22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/PDDTVisionToolBox/RobertControl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestBoard-Clarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestBoard-FCL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestBoard-Rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestBoard-ShapelyCollisionDetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VisionToolBox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VisionToolBox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PDDTVisionToolBox/AutoContol.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PDDTVisionToolBox/AutoContol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PDDTVisionToolBox/Process2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PDDTVisionToolBox/Process2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PDDTVisionToolBox/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PDDTVisionToolBox/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestBoard-PrePackages.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestBoard-PrePackages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestBoard-QBD.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestBoard-QBD.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,12 +51,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.AutoContol.executor": "Run",
+    "Python.RobertControl.executor": "Run",
+    "Python.TestBoard-FCL.executor": "Run",
+    "Python.TestBoard-NewTools.executor": "Run",
+    "Python.TestBoard-PrePackages.executor": "Run",
+    "Python.TestBoard-QBD.executor": "Run",
+    "Python.TestBoard-RRT.executor": "Run",
+    "Python.TestBoard-RobertPosCal.executor": "Run",
+    "Python.TestBoard-Rotation.executor": "Run",
     "Python.TestBoard-ZTJ.executor": "Run",
+    "Python.TestFile-GUI.executor": "Run",
+    "Python.TestFile.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/TestPlatfrom/TestPlatform/VisionToolBox/src/Pre-Packages",
-    "settings.editor.selected.configurable": "Console"
+    "last_opened_file_path": "D:/TestPlatform/YoloTestProject",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
